@@ -2,9 +2,5 @@ E:\_EDIELSON\_LAB\_Courses\Formacao Alura Data Warehouse\Formacao DW\Projetos\sr
 E:\_EDIELSON\_LAB\_Courses\Formacao Alura Data Warehouse\Formacao DW\Projetos\src\CriacaoDataLake\bin\Debug\CriacaoDataLake.dll
 E:\_EDIELSON\_LAB\_Courses\Formacao Alura Data Warehouse\Formacao DW\Projetos\src\CriacaoDataLake\bin\Debug\CriacaoDataLake.pdb
 E:\_EDIELSON\_LAB\_Courses\Formacao Alura Data Warehouse\Formacao DW\Projetos\src\CriacaoDataLake\obj\Debug\CriacaoDataLake.sqlproj.AssemblyReference.cache
-E:\_EDIELSON\_LAB\_Courses\Formacao Alura Data Warehouse\Formacao DW\Projetos\src\CriacaoDataLake\obj\Debug\Model.xml
-E:\_EDIELSON\_LAB\_Courses\Formacao Alura Data Warehouse\Formacao DW\Projetos\src\CriacaoDataLake\obj\Debug\refactor.xml
-E:\_EDIELSON\_LAB\_Courses\Formacao Alura Data Warehouse\Formacao DW\Projetos\src\CriacaoDataLake\obj\Debug\postdeploy.sql
-E:\_EDIELSON\_LAB\_Courses\Formacao Alura Data Warehouse\Formacao DW\Projetos\src\CriacaoDataLake\obj\Debug\predeploy.sql
 E:\_EDIELSON\_LAB\_Courses\Formacao Alura Data Warehouse\Formacao DW\Projetos\src\CriacaoDataLake\obj\Debug\CriacaoDataLake.dll
 E:\_EDIELSON\_LAB\_Courses\Formacao Alura Data Warehouse\Formacao DW\Projetos\src\CriacaoDataLake\obj\Debug\CriacaoDataLake.pdb

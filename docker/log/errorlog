@@ -1,0 +1,349 @@
+2023-09-20 22:49:55.57 Server      Microsoft SQL Server 2022 (RTM-CU8) (KB5029666) - 16.0.4075.1 (X64) 
+	Aug 23 2023 14:04:50 
+	Copyright (C) 2022 Microsoft Corporation
+	Developer Edition (64-bit) on Linux (Ubuntu 20.04.6 LTS) <X64>
+2023-09-20 22:49:55.58 Server      UTC adjustment: 0:00
+2023-09-20 22:49:55.58 Server      (c) Microsoft Corporation.
+2023-09-20 22:49:55.61 Server      All rights reserved.
+2023-09-20 22:49:55.61 Server      Server process ID is 472.
+2023-09-20 22:49:55.61 Server      Logging SQL Server messages in file '/var/opt/mssql/log/errorlog'.
+2023-09-20 22:49:55.62 Server      Registry startup parameters: 
+	 -d /var/opt/mssql/data/master.mdf
+	 -l /var/opt/mssql/data/mastlog.ldf
+	 -e /var/opt/mssql/log/errorlog
+2023-09-20 22:49:55.63 Server      SQL Server detected 1 sockets with 4 cores per socket and 8 logical processors per socket, 8 total logical processors; using 8 logical processors based on SQL Server licensing. This is an informational message; no user action is required.
+2023-09-20 22:49:55.65 Server      SQL Server is starting at normal priority base (=7). This is an informational message only. No user action is required.
+2023-09-20 22:49:55.65 Server      Detected 9853 MB of RAM. This is an informational message; no user action is required.
+2023-09-20 22:49:55.66 Server      Using conventional memory in the memory manager.
+2023-09-20 22:49:55.66 Server      Detected pause instruction latency: 34 cycles.
+2023-09-20 22:49:55.70 Server      Page exclusion bitmap is enabled.
+2023-09-20 22:49:55.79 Server      Buffer pool extension is not supported on Linux platform.
+2023-09-20 22:49:55.80 Server      Buffer Pool: Allocating 2097152 bytes for 1485236 hashPages.
+2023-09-20 22:49:56.15 Server      Buffer pool extension is already disabled. No action is necessary.
+2023-09-20 22:49:57.18 Server      Installing Client TLS certificates to the store.
+2023-09-20 22:49:57.21 Server      Error searching first file in /var/opt/mssql/security/ca-certificates: 3(The system cannot find the path specified.)
+2023-09-20 22:49:57.23 Server      CPU vectorization level(s) detected:  SSE SSE2 SSE3 SSSE3 SSE41 SSE42 AVX AVX2 POPCNT BMI1 BMI2
+2023-09-20 22:49:57.38 Server      Successfully initialized the TLS configuration. Allowed TLS protocol versions are ['1.0 1.1 1.2']. Allowed TLS ciphers are ['ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA:ECDHE-ECDSA-AES128-SHA:AES256-GCM-SHA384:AES128-GCM-SHA256:AES256-SHA256:AES128-SHA256:AES256-SHA:AES128-SHA:!DHE-RSA-AES256-GCM-SHA384:!DHE-RSA-AES128-GCM-SHA256:!DHE-RSA-AES256-SHA:!DHE-RSA-AES128-SHA'].
+2023-09-20 22:49:57.42 Server      Query Store settings initialized with enabled = 1, 
+2023-09-20 22:49:57.44 Server      The maximum number of dedicated administrator connections for this instance is '1'
+2023-09-20 22:49:57.46 Server      Node configuration: node 0: CPU mask: 0x00000000000000ff:0 Active CPU mask: 0x00000000000000ff:0. This message provides a description of the NUMA configuration for this computer. This is an informational message only. No user action is required.
+2023-09-20 22:49:57.52 Server      Using dynamic lock allocation.  Initial allocation of 2500 Lock blocks and 5000 Lock Owner blocks per node.  This is an informational message only.  No user action is required.
+2023-09-20 22:49:57.58 Server      In-Memory OLTP initialized on standard machine.
+2023-09-20 22:49:57.58 Server      CLR version v4.0.30319 loaded.
+2023-09-20 22:49:57.78 Server      [INFO] Created Extended Events session 'hkenginexesession'
+2023-09-20 22:49:57.79 Server      Database Instant File Initialization: enabled. For security and performance considerations see the topic 'Database Instant File Initialization' in SQL Server Books Online. This is an informational message only. No user action is required.
+2023-09-20 22:49:57.82 Server      Total Log Writer threads: 2. This is an informational message; no user action is required.
+2023-09-20 22:49:57.83 Server      clflushopt is selected for pmem flush operation.
+2023-09-20 22:49:57.84 Server      Software Usage Metrics is disabled.
+2023-09-20 22:49:57.88 spid26s     [1]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2023-09-20 22:49:57.89 spid26s     Starting up database 'master'.
+2023-09-20 22:49:58.06 spid26s     The tail of the log for database master is being rewritten to match the new sector size of 4096 bytes.  1024 bytes at offset 396288 in file /var/opt/mssql/data/mastlog.ldf will be written.
+2023-09-20 22:49:58.26 Server      Common language runtime (CLR) functionality initialized.
+2023-09-20 22:49:58.38 spid26s     Converting database 'master' from version 927 to the current version 957.
+2023-09-20 22:49:58.39 spid26s     Database 'master' running the upgrade step from version 927 to version 928.
+2023-09-20 22:49:58.50 spid26s     Database 'master' running the upgrade step from version 928 to version 929.
+2023-09-20 22:49:58.58 spid26s     Database 'master' running the upgrade step from version 929 to version 930.
+2023-09-20 22:49:58.63 spid26s     Database 'master' running the upgrade step from version 930 to version 931.
+2023-09-20 22:49:58.65 spid26s     Database 'master' running the upgrade step from version 931 to version 932.
+2023-09-20 22:49:58.70 spid26s     Database 'master' running the upgrade step from version 932 to version 933.
+2023-09-20 22:49:58.78 spid26s     Database 'master' running the upgrade step from version 933 to version 934.
+2023-09-20 22:49:58.82 spid26s     Database 'master' running the upgrade step from version 934 to version 935.
+2023-09-20 22:49:58.88 spid26s     Database 'master' running the upgrade step from version 935 to version 936.
+2023-09-20 22:49:58.90 spid26s     Database 'master' running the upgrade step from version 936 to version 937.
+2023-09-20 22:49:58.92 spid26s     Database 'master' running the upgrade step from version 937 to version 938.
+2023-09-20 22:49:58.96 spid26s     Database 'master' running the upgrade step from version 938 to version 939.
+2023-09-20 22:49:58.98 spid26s     Database 'master' running the upgrade step from version 939 to version 940.
+2023-09-20 22:49:59.00 spid26s     Database 'master' running the upgrade step from version 940 to version 941.
+2023-09-20 22:49:59.02 spid26s     Database 'master' running the upgrade step from version 941 to version 942.
+2023-09-20 22:49:59.04 spid26s     Database 'master' running the upgrade step from version 942 to version 943.
+2023-09-20 22:49:59.09 spid26s     Database 'master' running the upgrade step from version 943 to version 944.
+2023-09-20 22:49:59.11 spid26s     Database 'master' running the upgrade step from version 944 to version 945.
+2023-09-20 22:49:59.16 spid26s     Database 'master' running the upgrade step from version 945 to version 946.
+2023-09-20 22:49:59.19 spid26s     Database 'master' running the upgrade step from version 946 to version 947.
+2023-09-20 22:49:59.23 spid26s     Database 'master' running the upgrade step from version 947 to version 948.
+2023-09-20 22:49:59.26 spid26s     Database 'master' running the upgrade step from version 948 to version 949.
+2023-09-20 22:49:59.28 spid26s     Database 'master' running the upgrade step from version 949 to version 950.
+2023-09-20 22:49:59.30 spid26s     Database 'master' running the upgrade step from version 950 to version 951.
+2023-09-20 22:49:59.33 spid26s     Database 'master' running the upgrade step from version 951 to version 952.
+2023-09-20 22:49:59.34 spid26s     Database 'master' running the upgrade step from version 952 to version 953.
+2023-09-20 22:49:59.36 spid26s     Database 'master' running the upgrade step from version 953 to version 954.
+2023-09-20 22:49:59.38 spid26s     Database 'master' running the upgrade step from version 954 to version 955.
+2023-09-20 22:49:59.40 spid26s     Database 'master' running the upgrade step from version 955 to version 956.
+2023-09-20 22:49:59.43 spid26s     Database 'master' running the upgrade step from version 956 to version 957.
+2023-09-20 22:49:59.61 Server      External governance manager initialized
+2023-09-20 22:49:59.61 spid29s     [32767]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2023-09-20 22:49:59.62 spid29s     Starting up database 'mssqlsystemresource'.
+2023-09-20 22:49:59.63 spid29s     The resource database build version is 16.00.4075. This is an informational message only. No user action is required.
+2023-09-20 22:49:59.67 spid29s     [3]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2023-09-20 22:49:59.68 spid29s     Starting up database 'model'.
+2023-09-20 22:49:59.68 spid36s     Password policy update was successful.
+2023-09-20 22:49:59.78 spid26s     [32762]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2023-09-20 22:49:59.79 spid26s     Starting up database 'model_replicatedmaster'.
+2023-09-20 22:49:59.80 spid29s     The tail of the log for database model is being rewritten to match the new sector size of 4096 bytes.  2048 bytes at offset 75776 in file /var/opt/mssql/data/modellog.ldf will be written.
+2023-09-20 22:49:59.85 spid26s     The tail of the log for database model_replicatedmaster is being rewritten to match the new sector size of 4096 bytes.  2560 bytes at offset 99840 in file /var/opt/mssql/data/model_replicatedmaster.ldf will be written.
+2023-09-20 22:49:59.89 spid29s     Converting database 'model' from version 927 to the current version 957.
+2023-09-20 22:49:59.89 spid29s     Database 'model' running the upgrade step from version 927 to version 928.
+2023-09-20 22:49:59.94 spid29s     Database 'model' running the upgrade step from version 928 to version 929.
+2023-09-20 22:49:59.95 spid26s     Converting database 'model_replicatedmaster' from version 927 to the current version 957.
+2023-09-20 22:49:59.96 spid26s     Database 'model_replicatedmaster' running the upgrade step from version 927 to version 928.
+2023-09-20 22:49:59.98 spid26s     Database 'model_replicatedmaster' running the upgrade step from version 928 to version 929.
+2023-09-20 22:50:00.01 spid29s     Database 'model' running the upgrade step from version 929 to version 930.
+2023-09-20 22:50:00.06 spid29s     Database 'model' running the upgrade step from version 930 to version 931.
+2023-09-20 22:50:00.06 spid26s     Database 'model_replicatedmaster' running the upgrade step from version 929 to version 930.
+2023-09-20 22:50:00.08 spid29s     Database 'model' running the upgrade step from version 931 to version 932.
+2023-09-20 22:50:00.12 spid29s     Database 'model' running the upgrade step from version 932 to version 933.
+2023-09-20 22:50:00.13 spid26s     Database 'model_replicatedmaster' running the upgrade step from version 930 to version 931.
+2023-09-20 22:50:00.14 spid29s     Database 'model' running the upgrade step from version 933 to version 934.
+2023-09-20 22:50:00.16 spid26s     Database 'model_replicatedmaster' running the upgrade step from version 931 to version 932.
+2023-09-20 22:50:00.19 spid29s     Database 'model' running the upgrade step from version 934 to version 935.
+2023-09-20 22:50:00.19 spid36s     A self-generated certificate was successfully loaded for encryption.
+2023-09-20 22:50:00.20 spid36s     Server is listening on [ 'any' <ipv6> 1433] accept sockets 1.
+2023-09-20 22:50:00.20 spid36s     Server is listening on [ 'any' <ipv4> 1433] accept sockets 1.
+2023-09-20 22:50:00.21 Server      Server is listening on [ ::1 <ipv6> 1434] accept sockets 1.
+2023-09-20 22:50:00.21 Server      Server is listening on [ 127.0.0.1 <ipv4> 1434] accept sockets 1.
+2023-09-20 22:50:00.22 Server      Dedicated admin connection support was established for listening locally on port 1434.
+2023-09-20 22:50:00.23 spid36s     Server is listening on [ ::1 <ipv6> 1431] accept sockets 1.
+2023-09-20 22:50:00.23 spid36s     Server is listening on [ 127.0.0.1 <ipv4> 1431] accept sockets 1.
+2023-09-20 22:50:00.24 spid36s     SQL Server is now ready for client connections. This is an informational message; no user action is required.
+2023-09-20 22:50:00.24 spid26s     Database 'model_replicatedmaster' running the upgrade step from version 932 to version 933.
+2023-09-20 22:50:00.25 spid29s     Database 'model' running the upgrade step from version 935 to version 936.
+2023-09-20 22:50:00.27 spid26s     Database 'model_replicatedmaster' running the upgrade step from version 933 to version 934.
+2023-09-20 22:50:00.28 spid29s     Database 'model' running the upgrade step from version 936 to version 937.
+2023-09-20 22:50:00.30 spid26s     Database 'model_replicatedmaster' running the upgrade step from version 934 to version 935.
+2023-09-20 22:50:00.31 spid29s     Database 'model' running the upgrade step from version 937 to version 938.
+2023-09-20 22:50:00.33 spid26s     Database 'model_replicatedmaster' running the upgrade step from version 935 to version 936.
+2023-09-20 22:50:00.34 spid29s     Database 'model' running the upgrade step from version 938 to version 939.
+2023-09-20 22:50:00.36 spid26s     Database 'model_replicatedmaster' running the upgrade step from version 936 to version 937.
+2023-09-20 22:50:00.37 spid29s     Database 'model' running the upgrade step from version 939 to version 940.
+2023-09-20 22:50:00.39 spid26s     Database 'model_replicatedmaster' running the upgrade step from version 937 to version 938.
+2023-09-20 22:50:00.41 spid29s     Database 'model' running the upgrade step from version 940 to version 941.
+2023-09-20 22:50:00.43 spid26s     Database 'model_replicatedmaster' running the upgrade step from version 938 to version 939.
+2023-09-20 22:50:00.44 spid29s     Database 'model' running the upgrade step from version 941 to version 942.
+2023-09-20 22:50:00.46 spid26s     Database 'model_replicatedmaster' running the upgrade step from version 939 to version 940.
+2023-09-20 22:50:00.48 spid29s     Database 'model' running the upgrade step from version 942 to version 943.
+2023-09-20 22:50:00.50 spid26s     Database 'model_replicatedmaster' running the upgrade step from version 940 to version 941.
+2023-09-20 22:50:00.54 spid26s     Database 'model_replicatedmaster' running the upgrade step from version 941 to version 942.
+2023-09-20 22:50:00.54 spid29s     Database 'model' running the upgrade step from version 943 to version 944.
+2023-09-20 22:50:00.57 spid29s     Database 'model' running the upgrade step from version 944 to version 945.
+2023-09-20 22:50:00.57 spid26s     Database 'model_replicatedmaster' running the upgrade step from version 942 to version 943.
+2023-09-20 22:50:00.61 spid29s     Database 'model' running the upgrade step from version 945 to version 946.
+2023-09-20 22:50:00.64 spid29s     Database 'model' running the upgrade step from version 946 to version 947.
+2023-09-20 22:50:00.67 spid26s     Database 'model_replicatedmaster' running the upgrade step from version 943 to version 944.
+2023-09-20 22:50:00.68 spid29s     Database 'model' running the upgrade step from version 947 to version 948.
+2023-09-20 22:50:00.73 spid26s     Database 'model_replicatedmaster' running the upgrade step from version 944 to version 945.
+2023-09-20 22:50:00.74 spid29s     Database 'model' running the upgrade step from version 948 to version 949.
+2023-09-20 22:50:00.76 spid26s     Database 'model_replicatedmaster' running the upgrade step from version 945 to version 946.
+2023-09-20 22:50:00.77 spid29s     Database 'model' running the upgrade step from version 949 to version 950.
+2023-09-20 22:50:00.79 spid26s     Database 'model_replicatedmaster' running the upgrade step from version 946 to version 947.
+2023-09-20 22:50:00.80 spid29s     Database 'model' running the upgrade step from version 950 to version 951.
+2023-09-20 22:50:00.82 spid26s     Database 'model_replicatedmaster' running the upgrade step from version 947 to version 948.
+2023-09-20 22:50:00.83 spid29s     Database 'model' running the upgrade step from version 951 to version 952.
+2023-09-20 22:50:00.85 spid26s     Database 'model_replicatedmaster' running the upgrade step from version 948 to version 949.
+2023-09-20 22:50:00.86 spid29s     Database 'model' running the upgrade step from version 952 to version 953.
+2023-09-20 22:50:00.88 spid26s     Database 'model_replicatedmaster' running the upgrade step from version 949 to version 950.
+2023-09-20 22:50:00.90 spid29s     Database 'model' running the upgrade step from version 953 to version 954.
+2023-09-20 22:50:00.91 spid26s     Database 'model_replicatedmaster' running the upgrade step from version 950 to version 951.
+2023-09-20 22:50:00.93 spid29s     Database 'model' running the upgrade step from version 954 to version 955.
+2023-09-20 22:50:00.95 spid29s     Database 'model' running the upgrade step from version 955 to version 956.
+2023-09-20 22:50:00.97 spid26s     Database 'model_replicatedmaster' running the upgrade step from version 951 to version 952.
+2023-09-20 22:50:00.99 spid29s     Database 'model' running the upgrade step from version 956 to version 957.
+2023-09-20 22:50:01.00 spid26s     Database 'model_replicatedmaster' running the upgrade step from version 952 to version 953.
+2023-09-20 22:50:01.03 spid26s     Database 'model_replicatedmaster' running the upgrade step from version 953 to version 954.
+2023-09-20 22:50:01.07 spid26s     Database 'model_replicatedmaster' running the upgrade step from version 954 to version 955.
+2023-09-20 22:50:01.13 spid26s     Database 'model_replicatedmaster' running the upgrade step from version 955 to version 956.
+2023-09-20 22:50:01.18 spid26s     Database 'model_replicatedmaster' running the upgrade step from version 956 to version 957.
+2023-09-20 22:50:01.40 spid26s     [32761]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2023-09-20 22:50:01.41 spid26s     Starting up database 'model_msdb'.
+2023-09-20 22:50:01.56 spid26s     Converting database 'model_msdb' from version 927 to the current version 957.
+2023-09-20 22:50:01.56 spid26s     Database 'model_msdb' running the upgrade step from version 927 to version 928.
+2023-09-20 22:50:01.59 spid26s     Database 'model_msdb' running the upgrade step from version 928 to version 929.
+2023-09-20 22:50:01.66 spid26s     Database 'model_msdb' running the upgrade step from version 929 to version 930.
+2023-09-20 22:50:01.69 spid26s     Database 'model_msdb' running the upgrade step from version 930 to version 931.
+2023-09-20 22:50:01.71 spid26s     Database 'model_msdb' running the upgrade step from version 931 to version 932.
+2023-09-20 22:50:01.73 spid26s     Database 'model_msdb' running the upgrade step from version 932 to version 933.
+2023-09-20 22:50:01.77 spid26s     Database 'model_msdb' running the upgrade step from version 933 to version 934.
+2023-09-20 22:50:01.79 spid26s     Database 'model_msdb' running the upgrade step from version 934 to version 935.
+2023-09-20 22:50:01.82 spid26s     Database 'model_msdb' running the upgrade step from version 935 to version 936.
+2023-09-20 22:50:01.85 spid26s     Database 'model_msdb' running the upgrade step from version 936 to version 937.
+2023-09-20 22:50:01.87 spid26s     Database 'model_msdb' running the upgrade step from version 937 to version 938.
+2023-09-20 22:50:01.89 spid26s     Database 'model_msdb' running the upgrade step from version 938 to version 939.
+2023-09-20 22:50:01.91 spid26s     Database 'model_msdb' running the upgrade step from version 939 to version 940.
+2023-09-20 22:50:01.92 spid26s     Database 'model_msdb' running the upgrade step from version 940 to version 941.
+2023-09-20 22:50:01.94 spid26s     Database 'model_msdb' running the upgrade step from version 941 to version 942.
+2023-09-20 22:50:01.95 spid26s     Database 'model_msdb' running the upgrade step from version 942 to version 943.
+2023-09-20 22:50:02.03 spid26s     Database 'model_msdb' running the upgrade step from version 943 to version 944.
+2023-09-20 22:50:02.05 spid26s     Database 'model_msdb' running the upgrade step from version 944 to version 945.
+2023-09-20 22:50:02.12 spid26s     Database 'model_msdb' running the upgrade step from version 945 to version 946.
+2023-09-20 22:50:02.18 spid26s     Database 'model_msdb' running the upgrade step from version 946 to version 947.
+2023-09-20 22:50:02.22 spid26s     Database 'model_msdb' running the upgrade step from version 947 to version 948.
+2023-09-20 22:50:02.25 spid26s     Database 'model_msdb' running the upgrade step from version 948 to version 949.
+2023-09-20 22:50:02.28 spid26s     Database 'model_msdb' running the upgrade step from version 949 to version 950.
+2023-09-20 22:50:02.30 spid26s     Database 'model_msdb' running the upgrade step from version 950 to version 951.
+2023-09-20 22:50:02.34 spid26s     Database 'model_msdb' running the upgrade step from version 951 to version 952.
+2023-09-20 22:50:02.36 spid26s     Database 'model_msdb' running the upgrade step from version 952 to version 953.
+2023-09-20 22:50:02.39 spid26s     Database 'model_msdb' running the upgrade step from version 953 to version 954.
+2023-09-20 22:50:02.41 spid26s     Database 'model_msdb' running the upgrade step from version 954 to version 955.
+2023-09-20 22:50:02.43 spid26s     Database 'model_msdb' running the upgrade step from version 955 to version 956.
+2023-09-20 22:50:02.48 spid26s     Database 'model_msdb' running the upgrade step from version 956 to version 957.
+2023-09-20 22:50:02.58 spid26s     Resource governor reconfiguration succeeded.
+2023-09-20 22:50:02.58 spid43s     Attribute synchronization initialized
+2023-09-20 22:50:02.59 spid26s     SQL Server Audit is starting the audits. This is an informational message. No user action is required.
+2023-09-20 22:50:02.59 spid43s     Attribute synchronization manager initialized
+2023-09-20 22:50:02.60 spid26s     SQL Server Audit has started the audits. This is an informational message. No user action is required.
+2023-09-20 22:50:02.62 spid26s     XE session 'system_health' started.
+2023-09-20 22:50:02.81 spid26s     SQL Trace ID 1 was started by login "sa".
+2023-09-20 22:50:02.83 spid26s     Server name is '126627f03894'. This is an informational message only. No user action is required.
+2023-09-20 22:50:02.86 spid56s     Always On: The availability replica manager is starting. This is an informational message only. No user action is required.
+2023-09-20 22:50:02.86 spid29s     Clearing tempdb database.
+2023-09-20 22:50:02.86 spid59s     [4]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2023-09-20 22:50:02.87 spid56s     Always On: The availability replica manager is waiting for the instance of SQL Server to allow client connections. This is an informational message only. No user action is required.
+2023-09-20 22:50:02.88 spid59s     Starting up database 'msdb'.
+2023-09-20 22:50:03.18 spid59s     Converting database 'msdb' from version 927 to the current version 957.
+2023-09-20 22:50:03.19 spid59s     Database 'msdb' running the upgrade step from version 927 to version 928.
+2023-09-20 22:50:03.42 spid59s     Database 'msdb' running the upgrade step from version 928 to version 929.
+2023-09-20 22:50:03.51 spid29s     [2]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2023-09-20 22:50:03.52 spid29s     Starting up database 'tempdb'.
+2023-09-20 22:50:03.62 spid59s     Database 'msdb' running the upgrade step from version 929 to version 930.
+2023-09-20 22:50:03.67 spid29s     The tempdb database has 1 data file(s).
+2023-09-20 22:50:03.69 spid59s     Database 'msdb' running the upgrade step from version 930 to version 931.
+2023-09-20 22:50:03.70 spid56s     The Service Broker endpoint is in disabled or stopped state.
+2023-09-20 22:50:03.70 spid56s     The Database Mirroring endpoint is in disabled or stopped state.
+2023-09-20 22:50:03.73 spid59s     Database 'msdb' running the upgrade step from version 931 to version 932.
+2023-09-20 22:50:03.74 spid56s     Service Broker manager has started.
+2023-09-20 22:50:03.77 spid59s     Database 'msdb' running the upgrade step from version 932 to version 933.
+2023-09-20 22:50:03.83 spid59s     Database 'msdb' running the upgrade step from version 933 to version 934.
+2023-09-20 22:50:03.86 spid59s     Database 'msdb' running the upgrade step from version 934 to version 935.
+2023-09-20 22:50:03.88 spid59s     Database 'msdb' running the upgrade step from version 935 to version 936.
+2023-09-20 22:50:03.90 spid59s     Database 'msdb' running the upgrade step from version 936 to version 937.
+2023-09-20 22:50:03.92 spid59s     Database 'msdb' running the upgrade step from version 937 to version 938.
+2023-09-20 22:50:03.97 spid59s     Database 'msdb' running the upgrade step from version 938 to version 939.
+2023-09-20 22:50:04.00 spid59s     Database 'msdb' running the upgrade step from version 939 to version 940.
+2023-09-20 22:50:04.02 spid59s     Database 'msdb' running the upgrade step from version 940 to version 941.
+2023-09-20 22:50:04.04 spid59s     Database 'msdb' running the upgrade step from version 941 to version 942.
+2023-09-20 22:50:04.07 spid59s     Database 'msdb' running the upgrade step from version 942 to version 943.
+2023-09-20 22:50:04.17 spid59s     Database 'msdb' running the upgrade step from version 943 to version 944.
+2023-09-20 22:50:04.20 spid59s     Database 'msdb' running the upgrade step from version 944 to version 945.
+2023-09-20 22:50:04.25 spid59s     Database 'msdb' running the upgrade step from version 945 to version 946.
+2023-09-20 22:50:04.27 spid59s     Database 'msdb' running the upgrade step from version 946 to version 947.
+2023-09-20 22:50:04.31 spid59s     Database 'msdb' running the upgrade step from version 947 to version 948.
+2023-09-20 22:50:04.33 spid59s     Database 'msdb' running the upgrade step from version 948 to version 949.
+2023-09-20 22:50:04.35 spid59s     Database 'msdb' running the upgrade step from version 949 to version 950.
+2023-09-20 22:50:04.38 spid59s     Database 'msdb' running the upgrade step from version 950 to version 951.
+2023-09-20 22:50:04.42 spid59s     Database 'msdb' running the upgrade step from version 951 to version 952.
+2023-09-20 22:50:04.44 spid59s     Database 'msdb' running the upgrade step from version 952 to version 953.
+2023-09-20 22:50:04.48 spid59s     Database 'msdb' running the upgrade step from version 953 to version 954.
+2023-09-20 22:50:04.51 spid59s     Database 'msdb' running the upgrade step from version 954 to version 955.
+2023-09-20 22:50:04.54 spid59s     Database 'msdb' running the upgrade step from version 955 to version 956.
+2023-09-20 22:50:04.65 spid59s     Database 'msdb' running the upgrade step from version 956 to version 957.
+2023-09-20 22:50:04.76 spid26s     Recovery is complete. This is an informational message only. No user action is required.
+2023-09-20 22:50:04.87 spid37s     The default language (LCID 0) has been set for engine and full-text services.
+2023-09-20 22:50:05.34 spid37s     The tempdb database has 8 data file(s).
+2023-09-20 22:50:28.65 spid59      Attempting to load library 'xplog70.dll' into memory. This is an informational message only. No user action is required.
+2023-09-20 22:50:28.68 spid59      Using 'xplog70.dll' version '2022.160.4075' to execute extended stored procedure 'xp_msver'. This is an informational message only; no user action is required.
+2023-09-20 22:50:28.90 spid66      Attempting to load library 'xpsqlbot.dll' into memory. This is an informational message only. No user action is required.
+2023-09-20 22:50:28.91 spid66      Using 'xpsqlbot.dll' version '2022.160.4075' to execute extended stored procedure 'xp_qv'. This is an informational message only; no user action is required.
+2023-09-20 22:52:47.38 spid76      Attempting to load library 'xpstar.dll' into memory. This is an informational message only. No user action is required.
+2023-09-20 22:52:47.41 spid76      Using 'xpstar.dll' version '2022.160.4075' to execute extended stored procedure 'xp_instance_regread'. This is an informational message only; no user action is required.
+2023-09-20 22:52:51.31 spid76      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2023-09-20 22:52:51.31 spid76      Starting up database 'DL_ATACADEZ'.
+2023-09-20 22:52:51.31 spid76      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2023-09-20 22:52:51.32 spid76      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2023-09-20 22:52:51.36 spid76      Parallel redo is started for database 'DL_ATACADEZ' with worker pool size [4].
+2023-09-20 22:52:51.38 spid76      Parallel redo is shutdown for database 'DL_ATACADEZ' with worker pool size [4].
+2023-09-20 22:52:51.46 spid76      Setting database option COMPATIBILITY_LEVEL to 160 for database 'DL_ATACADEZ'.
+2023-09-20 22:52:51.47 spid76      Setting database option ANSI_NULL_DEFAULT to OFF for database 'DL_ATACADEZ'.
+2023-09-20 22:52:51.48 spid76      Setting database option ANSI_NULLS to OFF for database 'DL_ATACADEZ'.
+2023-09-20 22:52:51.48 spid76      Setting database option ANSI_PADDING to OFF for database 'DL_ATACADEZ'.
+2023-09-20 22:52:51.49 spid76      Setting database option ANSI_WARNINGS to OFF for database 'DL_ATACADEZ'.
+2023-09-20 22:52:51.49 spid76      Setting database option ARITHABORT to OFF for database 'DL_ATACADEZ'.
+2023-09-20 22:52:51.50 spid76      Setting database option AUTO_CLOSE to OFF for database 'DL_ATACADEZ'.
+2023-09-20 22:52:51.50 spid76      Setting database option AUTO_SHRINK to OFF for database 'DL_ATACADEZ'.
+2023-09-20 22:52:51.51 spid76      Setting database option INCREMENTAL to OFF for database 'DL_ATACADEZ'.
+2023-09-20 22:52:51.51 spid76      Setting database option AUTO_CREATE_STATISTICS to ON for database 'DL_ATACADEZ'.
+2023-09-20 22:52:51.52 spid76      Setting database option AUTO_UPDATE_STATISTICS to ON for database 'DL_ATACADEZ'.
+2023-09-20 22:52:51.53 spid76      Setting database option CURSOR_CLOSE_ON_COMMIT to OFF for database 'DL_ATACADEZ'.
+2023-09-20 22:52:51.53 spid76      Setting database option CURSOR_DEFAULT to GLOBAL for database 'DL_ATACADEZ'.
+2023-09-20 22:52:51.54 spid76      Setting database option CONCAT_NULL_YIELDS_NULL to OFF for database 'DL_ATACADEZ'.
+2023-09-20 22:52:51.55 spid76      Setting database option NUMERIC_ROUNDABORT to OFF for database 'DL_ATACADEZ'.
+2023-09-20 22:52:51.55 spid76      Setting database option QUOTED_IDENTIFIER to OFF for database 'DL_ATACADEZ'.
+2023-09-20 22:52:51.56 spid76      Setting database option RECURSIVE_TRIGGERS to OFF for database 'DL_ATACADEZ'.
+2023-09-20 22:52:51.56 spid76      Setting database option DISABLE_BROKER to ON for database 'DL_ATACADEZ'.
+2023-09-20 22:52:51.58 spid76      Setting database option AUTO_UPDATE_STATISTICS_ASYNC to OFF for database 'DL_ATACADEZ'.
+2023-09-20 22:52:51.59 spid76      Setting database option DATE_CORRELATION_OPTIMIZATION to OFF for database 'DL_ATACADEZ'.
+2023-09-20 22:52:51.59 spid76      Setting database option PARAMETERIZATION to SIMPLE for database 'DL_ATACADEZ'.
+2023-09-20 22:52:51.60 spid76      Setting database option READ_COMMITTED_SNAPSHOT to OFF for database 'DL_ATACADEZ'.
+2023-09-20 22:52:51.60 spid76      Setting database option READ_WRITE to ON for database 'DL_ATACADEZ'.
+2023-09-20 22:52:51.61 spid76      Setting database option RECOVERY to FULL for database 'DL_ATACADEZ'.
+2023-09-20 22:52:51.62 spid76      Setting database option MULTI_USER to ON for database 'DL_ATACADEZ'.
+2023-09-20 22:52:51.62 spid76      Setting database option PAGE_VERIFY to CHECKSUM for database 'DL_ATACADEZ'.
+2023-09-20 22:52:51.63 spid76      Setting database option target_recovery_time to 60 for database 'DL_ATACADEZ'.
+2023-09-20 22:52:51.64 spid76      Setting database option delayed_durability to disabled for database 'DL_ATACADEZ'.
+2023-09-20 22:53:02.98 spid76      [6]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2023-09-20 22:53:02.99 spid76      Starting up database 'DW_ATACADEZ'.
+2023-09-20 22:53:02.99 spid76      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [6]
+2023-09-20 22:53:02.99 spid76      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 6.
+2023-09-20 22:53:03.04 spid76      Parallel redo is started for database 'DW_ATACADEZ' with worker pool size [4].
+2023-09-20 22:53:03.07 spid76      Parallel redo is shutdown for database 'DW_ATACADEZ' with worker pool size [4].
+2023-09-20 22:53:03.16 spid76      Setting database option COMPATIBILITY_LEVEL to 160 for database 'DW_ATACADEZ'.
+2023-09-20 22:53:03.17 spid76      Setting database option ANSI_NULL_DEFAULT to OFF for database 'DW_ATACADEZ'.
+2023-09-20 22:53:03.18 spid76      Setting database option ANSI_NULLS to OFF for database 'DW_ATACADEZ'.
+2023-09-20 22:53:03.18 spid76      Setting database option ANSI_PADDING to OFF for database 'DW_ATACADEZ'.
+2023-09-20 22:53:03.19 spid76      Setting database option ANSI_WARNINGS to OFF for database 'DW_ATACADEZ'.
+2023-09-20 22:53:03.20 spid76      Setting database option ARITHABORT to OFF for database 'DW_ATACADEZ'.
+2023-09-20 22:53:03.20 spid76      Setting database option AUTO_CLOSE to OFF for database 'DW_ATACADEZ'.
+2023-09-20 22:53:03.21 spid76      Setting database option AUTO_SHRINK to OFF for database 'DW_ATACADEZ'.
+2023-09-20 22:53:03.21 spid76      Setting database option INCREMENTAL to OFF for database 'DW_ATACADEZ'.
+2023-09-20 22:53:03.22 spid76      Setting database option AUTO_CREATE_STATISTICS to ON for database 'DW_ATACADEZ'.
+2023-09-20 22:53:03.22 spid76      Setting database option AUTO_UPDATE_STATISTICS to ON for database 'DW_ATACADEZ'.
+2023-09-20 22:53:03.23 spid76      Setting database option CURSOR_CLOSE_ON_COMMIT to OFF for database 'DW_ATACADEZ'.
+2023-09-20 22:53:03.23 spid76      Setting database option CURSOR_DEFAULT to GLOBAL for database 'DW_ATACADEZ'.
+2023-09-20 22:53:03.24 spid76      Setting database option CONCAT_NULL_YIELDS_NULL to OFF for database 'DW_ATACADEZ'.
+2023-09-20 22:53:03.25 spid76      Setting database option NUMERIC_ROUNDABORT to OFF for database 'DW_ATACADEZ'.
+2023-09-20 22:53:03.25 spid76      Setting database option QUOTED_IDENTIFIER to OFF for database 'DW_ATACADEZ'.
+2023-09-20 22:53:03.26 spid76      Setting database option RECURSIVE_TRIGGERS to OFF for database 'DW_ATACADEZ'.
+2023-09-20 22:53:03.26 spid76      Setting database option DISABLE_BROKER to ON for database 'DW_ATACADEZ'.
+2023-09-20 22:53:03.29 spid76      Setting database option AUTO_UPDATE_STATISTICS_ASYNC to OFF for database 'DW_ATACADEZ'.
+2023-09-20 22:53:03.29 spid76      Setting database option DATE_CORRELATION_OPTIMIZATION to OFF for database 'DW_ATACADEZ'.
+2023-09-20 22:53:03.30 spid76      Setting database option PARAMETERIZATION to SIMPLE for database 'DW_ATACADEZ'.
+2023-09-20 22:53:03.31 spid76      Setting database option READ_COMMITTED_SNAPSHOT to OFF for database 'DW_ATACADEZ'.
+2023-09-20 22:53:03.31 spid76      Setting database option READ_WRITE to ON for database 'DW_ATACADEZ'.
+2023-09-20 22:53:03.32 spid76      Setting database option RECOVERY to FULL for database 'DW_ATACADEZ'.
+2023-09-20 22:53:03.32 spid76      Setting database option MULTI_USER to ON for database 'DW_ATACADEZ'.
+2023-09-20 22:53:03.33 spid76      Setting database option PAGE_VERIFY to CHECKSUM for database 'DW_ATACADEZ'.
+2023-09-20 22:53:03.34 spid76      Setting database option target_recovery_time to 60 for database 'DW_ATACADEZ'.
+2023-09-20 22:53:03.34 spid76      Setting database option delayed_durability to disabled for database 'DW_ATACADEZ'.
+2023-09-20 22:53:28.42 Backup      Database backed up. Database: DL_ATACADEZ, creation date(time): 2023/09/20(22:52:51), pages dumped: 387, first LSN: 39:384:1, last LSN: 39:408:1, number of dump devices: 1, device information: (FILE=1, TYPE=DISK: {'/var/opt/mssql/backup/DL_ATACADEZ.bak'}). This is an informational message only. No user action is required.
+2023-09-20 22:53:28.45 Backup      BACKUP DATABASE successfully processed 378 pages in 0.196 seconds (15.047 MB/sec).
+2023-09-20 22:54:41.87 spid76      Setting database option SINGLE_USER to ON for database 'DW_ATACADEZ'.
+2023-09-20 22:54:42.20 spid76      [6]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2023-09-20 22:54:42.21 spid76      Starting up database 'DW_ATACADEZ'.
+2023-09-20 22:54:42.21 spid76      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [6]
+2023-09-20 22:54:42.21 spid76      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 6.
+2023-09-20 22:54:42.26 spid76      The database 'DW_ATACADEZ' is marked RESTORING and is in a state that does not allow recovery to be run.
+2023-09-20 22:54:42.46 spid76      [6]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2023-09-20 22:54:42.47 spid76      Starting up database 'DW_ATACADEZ'.
+2023-09-20 22:54:42.48 spid76      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [6]
+2023-09-20 22:54:42.48 spid76      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 6.
+2023-09-20 22:54:42.52 spid76      Parallel redo is started for database 'DW_ATACADEZ' with worker pool size [4].
+2023-09-20 22:54:42.54 spid76      The tail of the log for database DW_ATACADEZ is being rewritten to match the new sector size of 4096 bytes.  3584 bytes at offset 3305984 in file /var/opt/mssql/data/DW_ATACADEZ_log.ldf will be written.
+2023-09-20 22:54:42.57 spid76      Parallel redo is shutdown for database 'DW_ATACADEZ' with worker pool size [4].
+2023-09-20 22:54:42.78 spid76      Synchronize Database 'DW_ATACADEZ' (6) with Resource Database.
+2023-09-20 22:54:42.82 Backup      Restore is complete on database 'DW_ATACADEZ'.  The database is now available.
+2023-09-20 22:54:42.87 Backup      Database was restored: Database: DW_ATACADEZ, creation date(time): 2023/07/06(22:55:21), first LSN: 40:2470:1, last LSN: 40:2473:1, number of dump devices: 1, device information: (FILE=1, TYPE=DISK: {'/var/opt/mssql/backup/DW_ATACADEZ_BKP.BAK'}). Informational message. No user action required.
+2023-09-20 22:54:42.93 Backup      RESTORE DATABASE successfully processed 673 pages in 0.122 seconds (43.044 MB/sec).
+2023-09-20 22:54:42.94 spid76      Setting database option MULTI_USER to ON for database 'DW_ATACADEZ'.
+2023-09-20 22:55:00.23 spid74      XE session 'telemetry_xevents' started.
+2023-09-20 22:56:49.43 spid66      Setting database option ANSI_NULLS to ON for database 'DL_ATACADEZ'.
+2023-09-20 22:56:49.43 spid66      Setting database option ANSI_PADDING to ON for database 'DL_ATACADEZ'.
+2023-09-20 22:56:49.44 spid66      Setting database option ANSI_WARNINGS to ON for database 'DL_ATACADEZ'.
+2023-09-20 22:56:49.45 spid66      Setting database option ARITHABORT to ON for database 'DL_ATACADEZ'.
+2023-09-20 22:56:49.45 spid66      Setting database option CONCAT_NULL_YIELDS_NULL to ON for database 'DL_ATACADEZ'.
+2023-09-20 22:56:49.45 spid66      Setting database option QUOTED_IDENTIFIER to ON for database 'DL_ATACADEZ'.
+2023-09-20 22:56:49.46 spid66      Setting database option ANSI_NULL_DEFAULT to ON for database 'DL_ATACADEZ'.
+2023-09-20 22:56:49.46 spid66      Setting database option CURSOR_DEFAULT to LOCAL for database 'DL_ATACADEZ'.
+2023-09-20 22:56:49.51 spid66      Setting database option PAGE_VERIFY to NONE for database 'DL_ATACADEZ'.
+2023-09-20 22:56:49.54 spid66      Setting database option target_recovery_time to 0 for database 'DL_ATACADEZ'.
+2023-09-20 22:56:49.58 spid66      Setting database option query_store max_storage_size_mb to 100 for database 'DL_ATACADEZ'.
+2023-09-20 22:56:49.58 spid66      Setting database option query_store query_capture_mode to all for database 'DL_ATACADEZ'.
+2023-09-20 22:56:49.59 spid66      Setting database option query_store stale_query_threshold_days to 367 for database 'DL_ATACADEZ'.
+2023-09-20 22:56:49.61 spid66      Setting database option query_store to off for database 'DL_ATACADEZ'.
